@@ -8,21 +8,43 @@
     <artifactId>es-hadoop</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.hadoop</groupId>-->
+            <!--<artifactId>hadoop-mapreduce-client-common</artifactId>-->
+            <!--<version>2.7.3</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.hadoop</groupId>-->
+            <!--<artifactId>hadoop-common</artifactId>-->
+            <!--<version>2.7.3</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.elasticsearch</groupId>-->
+            <!--<artifactId>elasticsearch-hadoop-mr</artifactId>-->
+            <!--<version>5.5.3</version>-->
+        <!--</dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
         <dependency>
-            <groupId>org.apache.hadoop</groupId>
-            <artifactId>hadoop-mapreduce-client-common</artifactId>
-            <version>2.7.3</version>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+            <version>3.11.2</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-high-level-client -->
         <dependency>
-            <groupId>org.apache.hadoop</groupId>
-            <artifactId>hadoop-common</artifactId>
-            <version>2.7.3</version>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+            <version>6.5.4</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
         <dependency>
             <groupId>org.elasticsearch</groupId>
-            <artifactId>elasticsearch-hadoop-mr</artifactId>
-            <version>5.5.3</version>
+            <artifactId>elasticsearch</artifactId>
+            <version>6.5.4</version>
         </dependency>
+
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
